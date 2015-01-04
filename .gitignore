@@ -1,2 +1,4 @@
 *.sublime-workspace
 node_modules
+css
+scripts/dest
