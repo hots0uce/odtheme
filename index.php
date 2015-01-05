@@ -7,22 +7,13 @@
 				<a href="/"><img src="<?php bloginfo('template_url'); ?>/img/logo.png" alt="O&apos;Designs" /></a>
 			</div>
 			<div class="nav">
-				<div class="nav-hamburger">
-					<div class="hamburger">
-						<div class="hamburger-bar"></div>
-						<div class="hamburger-bar"></div>
-						<div class="hamburger-bar"></div>
-					</div>
-				</div>
-				<div class="nav-items">
-					<a href="#top">Home</a>
-					<a href="#about">About</a>
-					<a href="#services">Services</a>
-					<a href="#work">Work</a>
-					<a href="http://opostrophy.tumblr.com/" target="_blank">Blog</a>
-					<a href="http://society6.com/opostrophy" target="_blank">Store</a>
-					<a href="#contact">Contact</a>
-				</div>
+				<a href="#top">Home</a>
+				<a href="#about">About</a>
+				<a href="#services">Services</a>
+				<a href="#work">Work</a>
+				<a href="http://opostrophy.tumblr.com/" target="_blank">Blog</a>
+				<a href="http://society6.com/opostrophy" target="_blank">Store</a>
+				<a href="#contact">Contact</a>
 			</div>
 			<i class="clear"></i>
 		</div>
@@ -42,6 +33,7 @@
 	<div class="section about" id="about">
 
 		<h2 class="color-blue arrow about-header-text">About Me</h2>
+
 		<p>
 			Christine Giuffrida is a freelance illustrator, designer and artist as well as the owner of O&apos;Postrophy Designs. Christine is currently working on her debut children&apos;s book Snippet &amp; The Loons with hopes to publish soon.
 		</p>
