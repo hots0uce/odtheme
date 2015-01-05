@@ -2,8 +2,11 @@
 	"folders":
 	[
 		{
-			"path": "/Users/josephgiuffrida/Sites/opostrophydesigns/htdocs/wp-content/themes/odtheme",
+			"path": "/Users/josephgiuffrida/Sites/opostrophydesigns/odtheme",
 			"folder_exclude_patterns": ["node_modules"]
+		},
+		{
+			"path": "/Users/josephgiuffrida/Sites/opostrophydesigns/htdocs"
 		}
 	]
 }
