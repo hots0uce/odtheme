@@ -45,5 +45,10 @@ gulp.task('watchall',function() {
 	gulp.watch(['js/src/**/*.js','css/less/**/*.less'], ['scripts','css']);
 });
 
+gulp.task('build', ['scripts','css'], function() {
+  gulp.src(['./*.php','./img','js/dist/**/*.js',])
+    .pipe(gulp.dest('./build'));
+});
+
 
 gulp.task('default',['scripts','css']);
