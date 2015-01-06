@@ -1,0 +1,106 @@
+.about {
+	font-size: 1em;
+}
+
+.about-header {
+
+}
+
+.about-header-image {
+	display: none;
+}
+
+@media all and (min-width: 700px) {
+	.about-header-image {
+		display: block;
+	}
+}
+
+.about-header-text {
+	display: block;
+	margin: 0 auto;
+	padding: 0 50px;
+	top: -30px;
+	position: relative;
+	left: 0;
+}
+
+@media all and (min-width: 700px) {
+
+	.about-header-text:before {
+		content: "";
+		display: block;
+		width: 190px;
+		background: url(img/snippet_butthole.png) no-repeat 0 0 transparent;
+		height: 150px;
+
+		position: absolute;
+		left: -70px;
+		top: -69px;
+	}
+
+	.about-header-text {
+		width: 500px;
+	}
+
+	.about-header-text:after {
+		content: "";
+		display: block;
+		width: 190px;
+		background: url(img/snippet_not_butthole.png) no-repeat 0 0 transparent;
+		height: 154px;
+
+		position: absolute;
+		right: -65px;
+		top: -74px;
+	}
+}
+
+
+.about-types {
+	padding-top: 20px;
+}
+
+.about-type {
+	position: relative;
+}
+
+@media all and (min-width: 700px) {
+	.about-type {
+		float: left;
+		border-left: 1px solid #efefef;
+		width: 33%;
+	}
+}
+
+.about-type:first-child {
+	border-left: none;
+}
+
+.about-type p {
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.about-type-inner {
+	padding: 70px 20px 20px;
+	background: url;
+}
+
+.about-icon {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -16px;
+	background: url(img/about-icons.png) no-repeat 0 0 transparent;	
+}
+
+.illustration .about-icon {
+	background-position: -35px 0;
+}
+
+.crafty .about-icon {
+	background-position: -70px 0;
+}
